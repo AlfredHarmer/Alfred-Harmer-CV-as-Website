@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--Enables site to be used on all devices-->
+    <title>Alfred E.G Harmer</title>
+    <link rel="stylesheet" href="style.css"/> <!--Connects HTML to CSS file-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  
+
+</head>
+<body>
+    <nav class="navbar"> <!--Top navigation bar for users-->
+        <div class="navbar__container"> 
+            <a href="/" id="navbar__home">Home</a> <!--Makes the Navbar Home buttom take the user to home section-->
+            <div class="navbar__toggle" id="mobile-menu"> <!--hamburger menu button for moblie-->
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu"> <!--Unordered list for navigaton links-->
+                <li class="navbar__item">
+                    <a href="/Experience.html" class="navbar__headers"> Experience </a> <!--Clickable nagivation list-->
+                </li>
+                <li class="navbar__item">
+                    <a href="/Interests.html" class="navbar__headers"> Interests </a>
+                </li>
+                    <li class="navbar__item">
+                    <a href="/CV.html" class="navbar__headers"> CV </a>
+                </li>
+                    <li class="navbar__btn">
+                    <a href="/" class="button"> Contact </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Main front page-->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>What you need to know</h1>
+                <p>I come from a professional motorsport background, where precision, accountability, and 
+collaboration are essential. Working in high-pressure, deadline-driven environments taught me 
+to take ownership, communicate clearly, and continuously improve — the same mindset I now 
+bring to web development. 
+I have strong foundations in JavaScript, HTML, and CSS, progressing into 
+TypeScript, and I genuinely enjoy learning by doing, I love thinking of new projects to test my 
+skills and improving my knowledge not just of the code itself but the creative planning of the 
+structure of the code required. I’m motivated by understanding how things work, refining details, 
+and contributing to a team that values growth and quality. 
+What I bring is curiosity, a strong work ethic, and experience thriving in supportive, 
+team-focused environments. I may be early in my web development career, but I care deeply 
+about doing things well and improving every day.</p>
+                <button class="main__btn"><a href="/">See more
+                </a></button>
+            </div>
+            <div class="ProfileMain__img--container">
+                <img src="Images/Profilewebsite.jpeg" alt="pic" id="ProfileMain__img">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
